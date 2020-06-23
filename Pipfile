@@ -10,6 +10,7 @@ django = "*"
 psycopg2-binary = "*"
 dj-database-url = "*"
 gunicorn = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"
