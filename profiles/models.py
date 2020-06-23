@@ -18,7 +18,7 @@ class Profile(models.Model):
 
 
     def __str__(self):
-        return f"{self.user.username}-{self.created}"
+        return f"{self.user.username}-{self.created.strftime('%d-%m-%y')}"
 
     def save(self, *args, **kwargs):
         ex = False
